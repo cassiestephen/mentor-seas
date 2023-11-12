@@ -6,7 +6,7 @@ nav {
   display: flex;
   align-items: center;
   color: white;
-  background-color: #2a52be;
+  background-color: #2B3289;
   justify-content: right;
 }
 
@@ -44,7 +44,7 @@ a {
 .engineering-v {
   width: 1450px;
   height: 670px;
-  filter: opacity(35%);
+  filter: opacity(45%);
 }
 
 .logo-detailed-aboutpg {
@@ -52,4 +52,35 @@ a {
   transform: translate(90%, -120%);
   width: 500px;
   height: 500px;
+}
+
+
+.external-links-nav {
+  margin: 0;
+  width: 100%;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  color: white;
+  background-color: #2B3289;
+  justify-content: center;
+}
+
+
+.fb-logo-button {
+  width: 55px;
+  height: 55px;
+  margin-right: -10px;
+}
+
+.ig-logo-button {
+  width: 40px;
+  height: 40px;
+  margin-right: -10px;
+}
+
+.gh-logo-button {
+  width: 65px;
+  height: 43px;
+  margin-left: -5px;
 }

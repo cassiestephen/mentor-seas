@@ -6,7 +6,7 @@ nav {
   display: flex;
   align-items: center;
   color: white;
-  background-color: #2B3289;
+  background-color: #2b3289;
   justify-content: right;
 }
 
@@ -54,7 +54,6 @@ a {
   height: 500px;
 }
 
-
 .external-links-nav {
   margin: 0;
   width: 100%;
@@ -62,10 +61,9 @@ a {
   display: flex;
   align-items: center;
   color: white;
-  background-color: #2B3289;
+  background-color: #2b3289;
   justify-content: center;
 }
-
 
 .fb-logo-button {
   width: 55px;
@@ -83,4 +81,76 @@ a {
   width: 65px;
   height: 43px;
   margin-left: -5px;
+}
+
+/* Sign Up Page */
+.sign-up-page {
+  font-family: Tahoma, sans-serif;
+}
+
+.header-sign-up {
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  transform: translate(0px, 40px);
+  width: 70%;
+  height: 150%;
+  margin: auto;
+}
+
+.header-text-sign-up {
+  justify-content: center;
+  color: #ee462f;
+}
+
+.subheader-sign-up {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 15px;
+  transform: translate(870px, 0px);
+  background-color: yellow;
+  width: 330px;
+}
+
+.sign-up-info-header {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.sign-up-info-subheader {
+  margin-bottom: 30px;
+}
+
+.my-engr-image {
+  width: 700px;
+  height: 320px;
+  margin-left: 40px;
+  box-shadow: 0 30px 40px rgba(0, 0, 0, 0.1);
+}
+
+.hstack-sign-up {
+  display: flex;
+  margin-left: 40px;
+  margin-top: 40px;
+  margin-right: 40px;
+  align-items: center;
+}
+
+.vstack-sign-up {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-sign-up {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.bottom-text-sign-up {
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
 }
